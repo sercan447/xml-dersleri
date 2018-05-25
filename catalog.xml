@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Sercan/Documents/NetBeansProjects/XML-3/../../../Desktop/Veritabanı%20Tasarımı.pdf" uri="src/main/resources/jaxb/VERİBANKS/Veritabanı%20Tasarımı.pdf"/>
+</catalog>

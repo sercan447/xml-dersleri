@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT ogrenciler (ogrenci*)>
+<!ELEMENT ogrenci (isim,soyad,adres,dersler*)>
+
+<!ATTLIST ogrenci numara CDATA #REQUIRED>
+
+<!ELEMENT isim (#PCDATA)>
+<!ELEMENT soyad (#PCDATA)>
+<!ELEMENT adres (sehir?,cadde?,mahalle?)>
+
+<!ELEMENT sehir (#PCDATA)>
+<!ELEMENT cadde (#PCDATA)>
+<!ELEMENT mahalle (#PCDATA)>
+
+<!ELEMENT dersler (ders*)>
+<!ELEMENT ders (kod?,ad?)>
+<!ELEMENT kod (#PCDATA)>
+<!ELEMENT ad (#PCDATA)>

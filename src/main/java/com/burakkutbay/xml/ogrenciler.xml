@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ogrenciler SYSTEM "ogrenciler.dtd">
+
+<ogrenciler>
+    <!--  BU OGRENCILER BILGILERI BULUNUR-->
+    <ogrenci numara="1">
+        <isim>Developers</isim>
+        <soyad>JAVA EE</soyad>
+        <adres>
+            <sehir>Istanbul</sehir>
+            <cadde>Karaosmanoglu</cadde>
+            <mahalle>Turgut reis</mahalle>
+        </adres>
+        
+        <dersler>
+            <ders>
+                <kod>354</kod>
+                <ad>Mat</ad>
+            </ders>
+            <ders>
+                <kod>848</kod>
+                <ad>Fizik</ad>
+            </ders>
+        </dersler>
+    </ogrenci>
+    
+    <ogrenci numara="2">
+        <isim>Sercan</isim>
+        <soyad>YERGOK</soyad>
+        <adres>
+            <sehir>Mugla</sehir>
+            <cadde>bodrum</cadde>
+            <mahalle>gumbet</mahalle>
+        </adres>
+        
+        <dersler>
+            <ders>
+                <kod>858</kod>
+                <ad>Biyoloji</ad>
+            </ders>
+            <ders>
+                <kod>156</kod>
+                <ad>Edebiyat</ad>
+            </ders>
+        </dersler>
+    </ogrenci>
+    
+</ogrenciler>
